@@ -4,10 +4,9 @@ const mostFrequentItemCount = (collection) => {
     }
   
     let maxCount = 0;
-    let mostfrequent;
   
     for (let i = 0; i < collection.length; i++) {
-      let count = 1; // Count the current element
+      let count = 1; 
   
       for (let j = i + 1; j < collection.length; j++) {
         if (collection[i] === collection[j]) {
@@ -17,7 +16,7 @@ const mostFrequentItemCount = (collection) => {
   
       if (count > maxCount) {
         maxCount = count;
-        mostfrequent = collection[i];
+  
       }
     }
   
