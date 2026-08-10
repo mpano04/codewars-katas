@@ -11,7 +11,7 @@
     }
   }
 ​
-  // 4. Convert back to a string
+  //converting it back to a string
   let result = "";
 ​
   for (let i = 0; i < chars.length; i++) {
