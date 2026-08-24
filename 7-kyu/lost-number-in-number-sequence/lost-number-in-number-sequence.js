@@ -5,7 +5,7 @@ function findDeletedNumber(arr, mixArr) {
     return 0;
   }
   else{
-    for(let i=0; arr.length; i++){
+    for(let i=0; i<arr.length; i++){
       if(!mixArr.includes(arr[i])){
         return arr[i];
       }
